@@ -27,7 +27,12 @@ module.exports = {
       appMountId: 'app',
       title: 'Plan To Succeed - Red Card',
       headHtmlSnippet: '<style>html { background: red; }</style >',
-      mobile: true
+      meta: [
+        {
+          name: 'viewport',
+          content: 'width=device-width, initial-scale=1, maximum-scale=1'
+        }
+      ]
     })
   ]
 }
